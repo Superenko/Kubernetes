@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "type": "commonjs",
   "volta": {
     "node": "18.15.0"
   },

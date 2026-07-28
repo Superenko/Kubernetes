@@ -6,9 +6,9 @@ import http from 'http';
 import cors from 'cors';
 import { json } from 'body-parser';
 import morgan from 'morgan';
-import db from './modules/db';
-import schema from './graphql/schema';
-import resolvers from './graphql/resolvers';
+import db from './modules/db/index.js';
+import schema from './graphql/schema.js';
+import resolvers from './graphql/resolvers.js';
 interface MyContext {
   token?: string;
 }

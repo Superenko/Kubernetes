@@ -1,5 +1,5 @@
 import { Queue, Worker } from 'bullmq';
-import ModGenerate from './generate';
+import ModGenerate from './generate.js';
 
 const QUEUE_NAME = 'default';
 

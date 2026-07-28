@@ -1,6 +1,8 @@
 import { faker } from '@faker-js/faker';
-import { random } from 'lodash';
-import db, { genId } from './db';
+import pkg from 'lodash';
+import db, { genId } from './db/index.js';
+
+const { random } = pkg;
 
 const submission = async () => {
   return await db.submission.create({
